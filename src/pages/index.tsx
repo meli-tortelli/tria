@@ -4,11 +4,9 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  return <>
-  <h1 className='text-5xl font-bold'>
-  Hello World!
-  </h1>
-
-  <Link href='/quem-somos'>Sobre nós</Link>
-  </>  
+  return (
+    <>
+      <h1 className='text-5xl font-bold'>Hello World!</h1>
+    </>
+  );
 }
