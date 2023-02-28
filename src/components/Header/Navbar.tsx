@@ -19,7 +19,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className='font-medium'>
-              <Link href='/nosso-trabalho'>Nosso trabalho</Link>
+              <Link href='/servicos'>Nosso trabalho</Link>
             </li>
           </ul>
         </li>
