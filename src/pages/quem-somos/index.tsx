@@ -19,21 +19,21 @@ export default function AboutPage(){
       </section>
 
       <section className="flex flex-col">
-        <article className="p-4">
-          <Image src={martiPic} alt="Martina" height={400} className="rounded-full"/>
-          Martina Tortelli
-            <aside>
+        <article className="flex flex-row p-3">
+          <Image src={martiPic} alt="Martina" height={400} className="rounded-full p-4"/>
+          <h3 className="inline-flex min-w-max self-center text-2xl">Martina Tortelli</h3>
+            <p className="p-4 self-center text-base">
               Estudante de Tecnologia da Informação, com interesses em aplicações para desenvolvimento web e desktop, automação e manutenção de hardware. 
-            </aside>
+            </p>
         </article>
 
-        <article className="p-4">
-          <Image src={meliPic} alt="Melissa" height={500} 
-          className="rounded-full"/>
-          Melissa Tortelli
-            <aside>
+        <article className="flex flex-row p-6">
+          <Image src={meliPic} alt="Melissa" height={400} 
+          className="rounded-full p-4"/>
+          <h3 className="inline-flex min-w-max self-center text-2xl">Melissa Tortelli</h3>
+            <p className="p-4 self-center text-base">
               Atualmente sou estudante de Engenharia da Computação, com formação técnica em Desenvolvimento de Sistemas. Meus interesses na área são desenvolvimento front-end e back-end
-            </aside>
+            </p>
         </article>
       </section>
     </>
