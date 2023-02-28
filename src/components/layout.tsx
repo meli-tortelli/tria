@@ -6,7 +6,7 @@ export default function Layout({ children }: myComponentProps) {
   return (
     <>
       <Header />
-      <h2>Testing</h2>
+      <h2></h2>
       {children}
     </>
   );
