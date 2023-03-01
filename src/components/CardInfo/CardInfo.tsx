@@ -2,9 +2,9 @@ import Image from "next/image";
 import martiPic from "@/../public/marti.jpg"
 import meliPic from "@/../public/meli.jpg"
 
-export default function CardInfo(){
+export default function CardInfo() {
   return (
-    <section>
+    <section className="m-8">
       <h1 className="text-3xl space-x-1">Quem somos</h1>
       <p className="text-lg justify-start text-justify">
         A TRIA é feita por nós, Martina e Melissa.

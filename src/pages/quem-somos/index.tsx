@@ -1,41 +1,12 @@
-import martiPic from "@/../public/marti.jpg"
-import meliPic from "@/../public/meli.jpg"
-import Image from "next/image"
+import CardDevs from "@/components/CardDevs/CardDevs"
+import CardInfo from "@/components/CardInfo/CardInfo"
 
-export default function AboutPage(){
+
+export default function AboutPage() {
   return (
     <>
-      <section className="m-8">
-        <div>
-          <h1 className="text-3xl space-x-1">Quem somos</h1>
-
-          <p className="text-lg justify-start text-justify">
-          A TRIA é feita por nós, Martina e Melissa.
-          Estudamos e trabalhamos com desenvolvimento, programação e TI, e buscamos oferecer as melhores Soluções em Tecnologia para você e sua empresa.
-          Nosso trabalho é interdisciplinar e reúne experiências profissionais, acadêmicas e nossas referências de mundo.
-          Converse com a gente. Converse com a TRIA.
-          </p>
-        </div>
-      </section>
-
-      <section className="flex flex-col">
-        <article className="flex flex-row p-3">
-          <Image src={martiPic} alt="Martina" height={400} className="rounded-full p-4"/>
-          <h3 className="inline-flex min-w-max self-center text-2xl">Martina Tortelli</h3>
-            <p className="p-4 self-center text-base">
-              Estudante de Tecnologia da Informação, com interesses em aplicações para desenvolvimento web e desktop, automação e manutenção de hardware. 
-            </p>
-        </article>
-
-        <article className="flex flex-row p-6">
-          <Image src={meliPic} alt="Melissa" height={400} 
-          className="rounded-full p-4"/>
-          <h3 className="inline-flex min-w-max self-center text-2xl">Melissa Tortelli</h3>
-            <p className="p-4 self-center text-base">
-              Atualmente sou estudante de Engenharia da Computação, com formação técnica em Desenvolvimento de Sistemas. Meus interesses na área são desenvolvimento front-end e back-end
-            </p>
-        </article>
-      </section>
+      <CardInfo />
+      <CardDevs />
     </>
   )
 }
