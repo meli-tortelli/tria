@@ -19,10 +19,10 @@ const inter = Inter({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
-      <main className={`${michroma.variable} ${inter.variable}`}>
+    <body className={`${michroma.variable} ${inter.variable}`}>
+      <Layout>
         <Component {...pageProps} />
-      </main>
-    </Layout>
+      </Layout>
+    </body>
   );
 }
