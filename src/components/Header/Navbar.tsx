@@ -2,10 +2,12 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className='md:w-1/2 '>
+    <nav className='md:w-1/2'>
       <ul className='flex items-center justify-end'>
         <li className='px-3 py-2 uppercase text-sm hover:underline'>
-          <Link href='/'>Início</Link>
+          <Link className='font-sans' href='/'>
+            Início
+          </Link>
         </li>
         <li
           className='group px-3 py-2 uppercase text-sm relative hover:underline'
