@@ -15,7 +15,7 @@ export default function CardDevs() {
           <div className="flex flex-wrap">
             <h3 className="flex flex-row text-3xl font-serif font-medium m-4">Martina Tortelli</h3>
             <p className="flex flex-row p-4 font-mono text-xl gap-4">
-              Sou estudante de Tecnologia da Informação, com interesses em desenvolvimento de aplicações web e desktop,  e manutenção de hardware.
+              Sou estudante de Tecnologia da Informação, com interesses em desenvolvimento de aplicações web e desktop,  e suporte técnico.
             </p>
           </div>
         </article>
