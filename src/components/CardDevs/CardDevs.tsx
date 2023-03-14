@@ -8,13 +8,13 @@ export default function CardDevs() {
       <section className="flex flex-col">
         <article className="flex flex-row p-4">
           <div className="flex">
-            <Image src={martiPic} alt="Martina" height={400}
-              className="rounded-full p-4 flex-2" />
+            <Image src={martiPic} alt="Martina" height={500}
+              className="rounded-full flex-2" />
           </div>
 
           <div className="flex flex-wrap">
-            <h3 className="flex flex-row text-3xl font-serif font-medium">Martina Tortelli</h3>
-            <p className="flex flex-row p-4 font-mono text-xl">
+            <h3 className="flex flex-row text-3xl font-serif font-medium m-4">Martina Tortelli</h3>
+            <p className="flex flex-row p-4 font-mono text-xl gap-4">
               Sou estudante de Tecnologia da Informação, com interesses em desenvolvimento de aplicações web e desktop,  e manutenção de hardware.
             </p>
           </div>
@@ -22,13 +22,13 @@ export default function CardDevs() {
 
         <article className="flex flex-row-reverse p-4">
           <div className="flex">
-            <Image src={meliPic} alt="Melissa" height={400}
-              className="rounded-full p-4 flex-2" />
+            <Image src={meliPic} alt="Melissa" height={600}
+              className="rounded-full flex-2" />
           </div>
 
           <div className="flex flex-wrap">
-            <h3 className="flex flex-row text-3xl font-serif font-medium">Melissa Tortelli</h3>
-            <p className="flex flex-row p-4 font-mono text-xl">
+            <h3 className="flex flex-row text-3xl font-serif font-medium m-4">Melissa Tortelli</h3>
+            <p className="flex flex-row p-4 font-mono text-xl gap-4">
               Atualmente sou estudante de Engenharia da Computação, com formação técnica em Desenvolvimento de Sistemas. Meus interesses na área são desenvolvimento web, front-end e back-end, design system
             </p>
           </div>

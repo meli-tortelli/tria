@@ -8,14 +8,14 @@ export default function ServiceSection() {
         {content.map((item, index) => {
           return (
             <div key={index} className='px-5 py-3'>
-              <h3 className='text-2xl font-semibold mb-2'>{item.title}</h3>
-              <p className='text-lg py-3'>{item.description}</p>
+              <h3 className='text-2xl font-semibold mb-2 font-serif'>{item.title}</h3>
+              <p className='text-lg py-3 font-mono'>{item.description}</p>
             </div>
           );
         })}
         <Link
           href='/contato'
-          className='underline flex justify-start items-center'
+          className='underline flex justify-start items-center font-mono'
         >
           Clique aqui para saber mais
           <span className='inline-block ml-2'>
