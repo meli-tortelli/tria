@@ -1,3 +1,5 @@
+import { Button } from "../Button/button";
+
 export default function Form() {
   return (
     <>
@@ -10,18 +12,18 @@ export default function Form() {
         <form action="" className="flex flex-col gap-4 w-full text-lg font-mono">
           <div className="">
             <label htmlFor="name" className="flex text-right">Nome</label>
-            <input type='text' id="name" className="flex form-input h-8 w-full rounded" />
+            <input type='text' id="name" className="flex form-input h-10 p-4 w-full rounded" />
           </div>
 
           <div>
             <label htmlFor="email" className="flex text-right">Email</label>
-            <input type='email' id="email" className="flex form-input w-full h-8 rounded" />
+            <input type='email' id="email" className="flex form-input w-full h-10 p-4 rounded" />
           </div>
 
           <div>
             <label htmlFor="projeto" className="flex text-right">Tipo de Projeto
             </label>
-            <input type='text' id="projeto" className="flex form-input h-8 w-full rounded" />
+            <input type='text' id="projeto" className="flex form-input h-10 p-4 w-full rounded" />
           </div>
 
           <div>
@@ -29,10 +31,7 @@ export default function Form() {
             <textarea id="descrição" className="flex form-textarea resize-none w-full rounded h-50" />
           </div>
 
-          <button
-            className="my-5 inline-block rounded border-2 border-primary px-6 pt-2 pb-[6px] text-xl font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:border-primary-600 hover:bg-slate-400 hover:bg-opacity-40 hover:text-primary-600 focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10">
-            Enviar
-          </button>
+          <Button title="Enviar" />
 
         </form>
 
