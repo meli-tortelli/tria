@@ -20,10 +20,10 @@ export default function CardDevs() {
           </div>
         </article>
 
-        <article className="flex flex-row-reverse w-1/2">
-          <div className="flex flex-col p-3 reverse">
+        <article className="flex flex-row-reverse w-auto">
+          <div className="flex flex-row p-3 self-end">
             <Image src={meliPic} alt="Melissa" height={400}
-              className="rounded-full flex-2" />
+              className="rounded-full flex self-end" />
           </div>
 
           <div className="flex flex-col w-1/2">
