@@ -14,7 +14,7 @@ export default function CardDevs() {
 
           <div className="flex flex-col w-1/2">
             <h3 className="flex flex-row text-3xl font-serif font-medium m-4 self-center my-8">Martina Tortelli</h3>
-            <p className="flex flex-row p-4 font-mono text-xl gap-4 self-end">
+            <p className="flex flex-row p-4 font-mono text-xl gap-4">
               Sou estudante de Tecnologia da Informação, com interesses em desenvolvimento de aplicações web/desktop,  e suporte técnico. Meus estudos são orientados para as tecnologias e linguagens mais usadas hoje no mercado, como Python, React, Node, JavaScript, TypeScript, entre outras. Além de construir projetos para empresas, quero colaborar com projetos que envolvam ações sociais, pois acredito na democratização das tecnologias e do espaço web como ferramenta para desenvolvimento pessoal, divulgação, e negócios.
             </p>
           </div>
@@ -28,7 +28,7 @@ export default function CardDevs() {
 
           <div className="flex flex-col w-1/2">
             <h3 className="flex flex-row text-3xl font-serif font-medium m-4 self-center my-8">Melissa Tortelli</h3>
-            <p className="flex flex-row p-4 font-mono text-xl gap-4 self-start">
+            <p className="flex flex-row p-4 font-mono text-xl gap-4">
               Atualmente sou estudante de Engenharia da Computação, com formação técnica em Desenvolvimento de Sistemas. Meus interesses na área são desenvolvimento web, front-end e back-end, design system.
             </p>
           </div>
